@@ -258,6 +258,8 @@ namespace QwenTTS.Engine
                 Load(_clone);
                 cancellationToken.ThrowIfCancellationRequested();
 
+                // Official generate_voice_clone has no instruct. 12 Hz Base
+                // does not honour one (Qwen issue #25); do not wire it through.
                 var tokenIds = _clone.Tokenizer.BuildClonePrompt(text, speaker: null, language, instruct: null);
                 if (tokenIds.Length < 8)
                     throw new InvalidOperationException("Prompt tokenization produced too few tokens.");

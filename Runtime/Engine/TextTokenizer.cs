@@ -114,6 +114,12 @@ namespace QwenTTS.Engine
             return Encode(instructWrapped);
         }
 
+        /// <summary>
+        /// Line tokens for Base / CustomVoice. <paramref name="instruct"/> is
+        /// the CustomVoice user-role prefix. Pass null for Base: Qwen's 12 Hz
+        /// clone path does not take instruct, and the published Base weights
+        /// do not follow one.
+        /// </summary>
         public int[] BuildClonePrompt(string text, string speaker, string language, string instruct = null)
         {
             var tokens = new List<int>();

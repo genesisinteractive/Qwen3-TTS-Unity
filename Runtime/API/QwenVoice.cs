@@ -83,7 +83,11 @@ namespace QwenTTS
 
         public bool IsCloned => Checkpoint == QwenCheckpoint.Base;
 
-        /// <summary>Natural-language description, for a designed voice.</summary>
+        /// <summary>
+        /// Natural-language description, for a designed voice. Null on clones.
+        /// 12 Hz Base has no per-utterance instruct — see the README
+        /// (Instruction control).
+        /// </summary>
         public string Instruct { get; }
 
         /// <summary>Transcript of the reference recording, for an in-context clone.</summary>

@@ -84,7 +84,11 @@ namespace QwenTTS
         public int IntraOpThreads;
     }
 
-    /// <summary>Per-utterance generation controls. All optional.</summary>
+    /// <summary>
+    /// Per-utterance generation controls. All optional. There is no Instruct
+    /// field: VoiceDesign's description lives on <see cref="VoiceDesignSpec"/>,
+    /// and 12 Hz Base clone does not accept one (Qwen <c>generate_voice_clone</c>).
+    /// </summary>
     public sealed class SpeechOptions
     {
         /// <summary>One of <see cref="QwenLanguages.All"/>, or <see cref="QwenLanguages.Auto"/>.</summary>
