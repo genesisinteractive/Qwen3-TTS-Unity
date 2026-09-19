@@ -44,7 +44,7 @@ The original license text:
 
 The ONNX Runtime session infrastructure — `Runtime/Onnx/ORTModel.cs` and the
 supporting helpers in `Runtime/Internal/` — comes from
-[Spark-TTS-Unity](https://github.com/arghyasur1991/Spark-TTS-Unity)
+[Spark-TTS-Unity](https://github.com/genesisinteractive/Spark-TTS-Unity)
 (Apache-2.0), where this package's inference path was first developed. That
 project's own Spark-TTS engine is not included here.
 

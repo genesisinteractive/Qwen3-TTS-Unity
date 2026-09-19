@@ -8,9 +8,9 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arghyasur1991/Qwen3-TTS-Unity.git"
+    "url": "https://github.com/genesisinteractive/Qwen3-TTS-Unity.git"
   },
-  "documentationUrl": "https://github.com/arghyasur1991/Qwen3-TTS-Unity#readme",
+  "documentationUrl": "https://github.com/genesisinteractive/Qwen3-TTS-Unity#readme",
   "dependencies": {
     "com.github.asus4.onnxruntime": "0.4.0",
     "com.unity.nuget.newtonsoft-json": "3.2.1"

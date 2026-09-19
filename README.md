@@ -37,7 +37,7 @@ Requires Unity 6000.0.46f1 or newer.
    Add package from git URL…** — or as a dependency in `manifest.json`:
 
    ```json
-   "com.genesis.qwentts.unity": "https://github.com/arghyasur1991/Qwen3-TTS-Unity.git"
+   "com.genesis.qwentts.unity": "https://github.com/genesisinteractive/Qwen3-TTS-Unity.git"
    ```
 
    `com.github.asus4.onnxruntime` and `com.unity.nuget.newtonsoft-json` are
