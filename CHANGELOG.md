@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+## 0.1.1 - 2026-09-19
+
+The package now lives at
+[genesisinteractive/Qwen3-TTS-Unity](https://github.com/genesisinteractive/Qwen3-TTS-Unity);
+the previous GitHub URL redirects. Drive uploads are four zips instead of
+one 20 GB blob. 12 Hz Base clone has no per-utterance `instruct`.
+
+- Install and documentation URLs point at
+  `https://github.com/genesisinteractive/Qwen3-TTS-Unity`. Pin `#v0.1.1`.
 - `Tools~/qwen3_tts_onnx/pack_gdrive.py` packs the runtime ONNX set (unified
   talker, embeddings, tokenizer) into four store-only zips: fp32 VoiceDesign,
   fp32 Base, and an int8 overlay per checkpoint. A single 20 GB archive is
