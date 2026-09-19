@@ -37,10 +37,10 @@ Requires Unity 6000.0.46f1 or newer.
    Add package from git URL…** — or as a dependency in `manifest.json`:
 
    ```json
-   "com.genesis.qwentts.unity": "https://github.com/genesisinteractive/Qwen3-TTS-Unity.git"
+   "com.genesis.qwentts.unity": "https://github.com/genesisinteractive/Qwen3-TTS-Unity.git#v0.1.1"
    ```
 
-   `com.github.asus4.onnxruntime` and `com.unity.nuget.newtonsoft-json` are
+   Drop the `#v0.1.1` suffix to track `main`. `com.github.asus4.onnxruntime` and `com.unity.nuget.newtonsoft-json` are
    pulled in as dependencies.
 
 3. Export the weights and point the package at them — see
